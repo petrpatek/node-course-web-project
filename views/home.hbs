@@ -1,15 +1,12 @@
 <DOCTYPE! html>
 <html>
-<head>
-    <meta charset="utf-8">
-    <title>
-        Home
-    </title>
-</head>
-<body>
+{{> head}}
+<body class="container-fluid">
 {{> header}}
+<div class="jumbotron">
 <p> {{ screamIt welcomeMessege}}</p>
-
+    <p><a class="btn btn-primary btn-lg" href="/projects" role="button"> My projects</a></p>
+</div>
 {{>footer}}
 
 </body>

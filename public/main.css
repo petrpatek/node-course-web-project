@@ -1,0 +1,27 @@
+.navbar{
+    background-color: darkslateblue;
+    color: white;
+}
+.nav .nav-tabs {
+    color: white;
+}
+.projects {
+    margin-left: 15%;
+
+}
+.projects-my {
+    display: inline-block;
+    padding: 10px;
+    position: relative;
+}
+.project-img {
+    max-width: 200px;
+    max-height: 450px;
+}
+.wrapper {
+
+    align-content: space-between;
+}
+body {
+    height: auto;
+}
