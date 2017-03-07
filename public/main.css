@@ -21,7 +21,16 @@
 .wrapper {
 
     align-content: space-between;
+    margin-left: 250px;
+    min-height: 300px;
 }
-body {
-    height: auto;
+#nadpis {
+    margin: 0 30% 0 30%;;
+}
+#body {
+    background: -moz-linear-gradient(top, #ffffff 0%, #e5e5e5 100%); /* FF3.6-15 */
+    background: -webkit-linear-gradient(top, #ffffff 0%,#e5e5e5 100%); /* Chrome10-25,Safari5.1-6 */
+    background: linear-gradient(to bottom, #ffffff 0%,#e5e5e5 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#e5e5e5',GradientType=0 ); /* IE6-9 */
+    min-height: 100%;
 }

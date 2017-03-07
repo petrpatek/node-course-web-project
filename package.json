@@ -11,6 +11,8 @@
   "license": "ISC",
   "dependencies": {
     "express": "^4.15.0",
-    "hbs": "^4.0.1"
+    "hbs": "^4.0.1",
+    "mssql": "^3.3.0",
+    "tedious": "^1.14.0"
   }
 }
